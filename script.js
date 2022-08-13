@@ -15,6 +15,10 @@ function generatePassword() {
     }
 }
 
+/* Allow user to chose the length of the password */
+/* Allow useer to choose what characters to include in the password */
+/* Display the strength of the password depending on the lenght and the characters included */
+
 
 
 
