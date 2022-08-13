@@ -7,7 +7,7 @@ let passTwo = document.getElementById("pass-two")
 function generatePassword() {
     passOne.innerText = ""; // returns back to the undeclared state. Try and see how it turns out with out this line. 
     passTwo.innerText = "";
-    for (let i = 0; i <= 15; i++) {
+    for (let i = 0; i <= 15; i++) { // 15 for the length of the passwords
         let randomIndexOne = Math.floor( Math.random() * characters.length )
         let randomIndexTwo = Math.floor( Math.random() * characters.length )
         passOne.innerText += characters[randomIndexOne]
